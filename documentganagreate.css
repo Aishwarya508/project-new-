@@ -1,0 +1,59 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+section{
+display: flex;
+}
+section .side_form{
+text-align: center;
+flex: 1;
+background-color: lightgray;
+min-height:100vh;
+}
+section .side_form h1{
+background-color: teal;
+color: white;
+padding: 5px;
+}
+section .letter_box{
+flex: 3;
+padding: 20px;
+}
+section div input{
+padding: 7px;margin: 7px;
+border: 0.1px solid gray;
+}
+section div button ,#btn{
+padding: 8px 18px;
+border: none;
+margin: 3px;
+background-color: teal;
+color: white;
+}
+
+
+/* offer letter css */
+#offer_letter{
+border: 2px solid blue;
+padding: 40px;
+
+}
+#offer_letter p{
+padding: 10px 0px;
+}
+.center{text-align: center;}
+.left{text-align: left;}
+
+/* I Card css */
+#Icard{
+border: 3px solid blue;
+padding: 20px;
+margin: 50px;
+display: flex;
+text-align: center;
+}
+#Icard div{
+flex: 1;
+}
